@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "399731878137",
+    "project_id": "trouvaille-17b75",
+    "storage_bucket": "trouvaille-17b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399731878137:android:a9570bf25fe35196c4da28",
+        "android_client_info": {
+          "package_name": "com.example.trouvaille"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399731878137-0ame0nqmvkf9oraflv65fgtlhg7o1rmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPWiegMA8m5FW8yKBkgaaZTF3m_XEWLuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399731878137-0ame0nqmvkf9oraflv65fgtlhg7o1rmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

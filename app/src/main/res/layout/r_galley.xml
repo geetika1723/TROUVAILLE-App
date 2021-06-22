@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbrown"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/textColorPrimary"
+        android:text="GALLERY"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/hotel_delhi_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="212dp"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_7" />
+
+                    <ImageView
+                        android:id="@+id/hotel_delhi_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="209dp"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_1" />
+
+                    <ImageView
+                        android:id="@+id/hotel_delhi_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_2" />
+
+                    <ImageView
+                        android:id="@+id/hotel_delhi_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_3" />
+
+                    <ImageView
+                        android:id="@+id/hotel_delhi_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_4" />
+                    <ImageView
+                        android:id="@+id/hotel_delhi_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_5" />
+                    <ImageView
+                        android:id="@+id/hotel_delhi_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="195dp"
+                        android:layout_marginTop="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel_delhi_6" />
+                </LinearLayout>
+    </ScrollView>
+</LinearLayout>

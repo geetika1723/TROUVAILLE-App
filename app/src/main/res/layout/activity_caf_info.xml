@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RInfoActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/restaurant1"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp"
+        android:background="@color/white">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ITC Grand Bharat, Gurugram"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:background="#c19f7b"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/name"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" P.O. Hasanpur Tauru, Gurugram, Haryana"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="18dp"
+                    android:id="@+id/address"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RATINGS  : "
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <RatingBar
+                    android:id="@+id/MyRating"
+                    style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="4"
+                    android:stepSize="0.1"
+                    android:background="@color/lightgrey"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="#20 of 880 Restaurtants in Lucknow"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/ranking"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MONEY ACCEPTED -Indian/Italian/Chinese"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/money"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Details:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rinfodetails"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:id="@+id/details"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone N0 - +91 4567893345"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/lightbrown"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:id="@+id/phoneno"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OPEN - 11:00 AM -11:00 PM"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/lightbrown"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:id="@+id/time"/>
+                <Button
+                    android:id="@+id/btn_c_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOR MORE DETAILS...CLICK >>>>"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/darker_gray" />
+                <Button
+                    android:id="@+id/btn_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm Your Table Now"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/holo_blue_dark" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

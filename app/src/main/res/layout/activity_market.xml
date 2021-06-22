@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarketActivity"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="#D3D3D3">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height ="wrap_content"
+        app:titleTextColor ="#000"
+        android:background="#e6e6e6"
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/markets">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp">
+        <ListView
+            android:id="@+id/market_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#C0C0C0"
+            android:background="@color/lightbrown"
+            android:dividerHeight="1dp"/>
+    </LinearLayout>
+
+</LinearLayout>
